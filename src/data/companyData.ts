@@ -1,4 +1,8 @@
 import { IndustryItem, LeadershipMember, MachineryItem, ProjectItem, ServiceItem } from '../types';
+import heroImg from '../assets/images/hero_industrial_engineering_1793617580913.jpg';
+import steelFabricationImg from '../assets/images/service_steel_fabrication_1793617581545.jpg';
+import oilPetrochemImg from '../assets/images/industry_oil_petrochem_1793617582386.jpg';
+import infrastructureErectionImg from '../assets/images/project_infrastructure_erection_1793617582040.jpg';
 
 export const COMPANY_INFO = {
   name: 'Quantum Dynamics (Public) Limited',
@@ -27,10 +31,10 @@ export const COMPANY_INFO = {
 };
 
 export const IMAGES = {
-  hero: '/src/assets/images/hero_industrial_engineering_1793617580913.jpg',
-  steelFabrication: '/src/assets/images/service_steel_fabrication_1793617581545.jpg',
-  oilPetrochem: '/src/assets/images/industry_oil_petrochem_1793617582386.jpg',
-  infrastructureErection: '/src/assets/images/project_infrastructure_erection_1793617582040.jpg',
+  hero: heroImg,
+  steelFabrication: steelFabricationImg,
+  oilPetrochem: oilPetrochemImg,
+  infrastructureErection: infrastructureErectionImg,
 };
 
 export const SERVICES: ServiceItem[] = [
